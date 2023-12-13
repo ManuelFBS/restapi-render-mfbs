@@ -1,0 +1,30 @@
+{
+  "name": "restapi-render-mfbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "build": "npm install; tsc",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelFBS/restapi-render-mfbs.git"
+  },
+  "keywords": [],
+  "author": "Manuel F. Borrego Sterling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelFBS/restapi-render-mfbs/issues"
+  },
+  "homepage": "https://github.com/ManuelFBS/restapi-render-mfbs#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.3.3"
+  }
+}
